@@ -6,7 +6,7 @@ include('templates/header.php');
 <section class="showcase">
   <div class="container">
     <div class="pb-2 mt-4 mb-2 border-bottom">
-      <h2>Razorpay Payment Gateway UPI Recurring Integration </h2>
+      <h2>Razorpay Payment Gateway</h2>
     </div>
 
     <div class="row align-items-center">
@@ -100,8 +100,6 @@ include('templates/header.php');
                 key: key_id,
                 amount: total,
                 order_id:x.order_id,
-                recurring: 1,
-                customer_id:x.customer_id,
                 name: store_name,
                 description: store_description,
                 image: store_logo,
